@@ -1,0 +1,46 @@
+{
+    "schema": {
+        "type": "object",
+        "title": "EntitiesTableSettings",
+        "properties": {
+            "widgetTitle": {
+                "title": "Widget title",
+                "type": "string",
+                "default": ""
+            },
+            "PositionHorizontal": {
+                "title": "PositionHorizontal",
+                "type": "string",
+                "enum": [
+                    "left",
+                    "center",
+                    "right"
+                ]
+            },
+            "PositionVertical": {
+                "title": "PositionVertical",
+                "type": "string",
+                "enum": [
+                    "top",
+                    "center",
+                    "bottom"
+                ]
+            },
+            "script": {
+                "title": "script",
+                "type": "string"
+            }
+        },
+        "required": [
+            "PositionHorizontal",
+            "PositionVertical",
+            "script"
+        ]
+    },
+    "form": [
+        "widgetTitle",
+        "PositionHorizontal",
+        "PositionVertical",
+        "script"
+    ]
+}

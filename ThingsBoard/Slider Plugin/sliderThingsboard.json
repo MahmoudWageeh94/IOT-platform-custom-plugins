@@ -1,0 +1,39 @@
+{
+    "schema": {
+        "type": "object",
+        "title": "Settings",
+        "required": ["links", "width", "height"],
+        "properties": {
+            "width" : {
+                "title" : "width",
+                "type" : "string"
+            },
+            "height" : {
+                "title" : "height",
+                "type" : "string"
+            },
+            "links": {
+                "type": "array",
+                "maxItems": 10,
+                "minItems": 2,
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "link": {
+                            "title": "Link",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "link"
+                    ]
+                }
+            } 
+        }
+    },
+    "form": [
+        "links",
+        "width",
+        "height"
+    ]
+}

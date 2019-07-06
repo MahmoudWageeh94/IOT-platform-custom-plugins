@@ -1,0 +1,21 @@
+{
+    "schema": {
+        "type": "object",
+        "title": "Settings",
+        "properties": {
+            "SearchId": {
+                "title": "SearchId",
+                "type": "string"
+            },
+            "ResultsUrl": {
+                "title": "ResultsUrl",
+                "type": "string"
+            }
+        },
+        "required": ["SearchId", "ResultsUrl"]
+    },
+    "form": [
+        "SearchId",
+        "ResultsUrl"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "schema": {
+        "type": "object",
+        "title": "Settings",
+        "properties": {
+                   "width" :{
+                       "title":"width" ,
+                        "type" : "string"
+                   },
+                   "height" : {
+                       "title" : "height",
+                       "type" : "string"
+                   }
+        },
+        "required" : ["width","height"]
+    },
+    "form": [
+        "width", "height"   
+    ]
+}

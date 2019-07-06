@@ -1,0 +1,15 @@
+plugin name
+AdsPlugin
+
+image url
+https://raw.githubusercontent.com/KareemFathy1996/IOT-Project/master/MoT/AdsPlugin/tv.png
+
+description
+add ads service provided by https://www.revenuehits.com/ to yout website
+
+required parameter
+script src
+//p355209.clksite.com/adServe/banners?tid=355209_695150_4&type=slider&side=left&size=17&zzzzz=-1&position=center
+
+<script data-cfasync='false' type='text/javascript' 
+src='//p355209.clksite.com/adServe/banners?tid=355209_695150_4&type=slider&side=left&size=17&zzzzz=-1&position=center'></script>

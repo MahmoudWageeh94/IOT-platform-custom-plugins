@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<style>
+			#myContainer{width:500px;height:300px;background:#ccc;position:relative}
+			#next,#previous{
+				position:absolute;color:#fff;background:transparent;
+				border:none;cursor:pointer;z-index:5;font-size:28px
+			}
+			#next{right:10px;top:45%;}
+			#previous{left:10px;top:45%;}
+			.slider{width:100%;height:100%}
+			img{width:100%;height:100%}
+			#stopButton,#playButton{
+			        width: 50%;
+					position:absolute;color:#333;
+					border:2px solid green;cursor:pointer;
+					z-index:5;bottom:-50px;background:transparent;
+					margin:5px;padding:8px;border-radius:10px;
+					}
+			#stopButton{left:0}
+			#playButton{left:50%}
+			#stopButton:hover,#playButton:hover{
+				background:green;
+				color:#fff;
+				border:2px solid #333
+			}
+			#next:hover,#previous:hover{
+				color:green;
+			}
+         </style>
+	</head>
+	<body>
+		<section class="myContainer" id="myContainer">
+			<div class="slider">
+				<img id="imgElement" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDW-lnBDawlv7jUABON8ygB0GRTC57aI-ND9SdQ8LpU7cSKRy">
+			</div>
+			<button id="playButton"> play </button>
+			<button id="stopButton"> stop </button>
+			<button id="previous"> &lt; </button>
+			<button id="next"> &gt; </button>	
+		</section>
+	</body>
+</html> 

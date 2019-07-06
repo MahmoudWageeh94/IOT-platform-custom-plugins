@@ -1,0 +1,17 @@
+required parameter
+SearchId =
+006094064906732385412:8e-x9mppndo
+ResultsUrl =
+http://www.masterofthings.com/
+
+006094064906732385412:-ksxz3ne3cq
+https://thingsboard.io/
+
+plugin name
+CustomGoogleSearchPlugin
+
+image url
+https://raw.githubusercontent.com/KareemFathy1996/IOT-Project/master/MoT/CustomGoogleSearch/search.png
+
+description
+add google custom search service to your website
